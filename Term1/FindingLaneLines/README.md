@@ -13,3 +13,12 @@ The goals / steps of this project are the following:
 
 My pipeline consisted of 4 steps. First, I converted the images to grayscale, then I applied canny edge detection algorithm to detect the edges of the lines in the image, then I applied the hough transform and detected the lane lines in the image and then I draw the line on the lane line detected images. 
 
+
+## **The shortcomings**
+There are two possible scenarios on which the algorithm might fail.
+    1. When the lane line slope changes 
+    2. On curved roads
+    
+
+## **Suggestions**
+Algorithm should detect the curved lane lines. 
